@@ -12,10 +12,24 @@ public class LoopingStatement {
 //		for(int i = 0;i< array.length;i++) {
 //			System.out.println(i+""+array[i]);
 //		}
+		
+		
+		
 		int i =0;
 		while(i<array.length) {
 			System.out.println(i+""+array[i]);
 			i++;
+		}
+		int n =1;
+		do {
+			
+			System.out.println("do while");
+			System.out.println(n);
+		}while(n>=2);
+		
+		System.out.println("for each");
+		for(int n1: array) {
+			System.out.println(n1);
 		}
 	}
 }
